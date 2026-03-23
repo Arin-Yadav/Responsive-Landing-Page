@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Travel Adventures</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav>
+            <div id="logoimg">
+                <a href="index.html" class="logo">Travel Adventures</a>
+                <img src="logo2.png" width="55" alt="">
+            </div>
+
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Tours</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" style="min-height: 80vh; display:flex; align-items:center;">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Plan your next journey with us 🌍</p>
+
+            <form id="contactForm">
+
+                <div class="input-group">
+                    <input type="text" id="name" placeholder="Your Name">
+                    <small class="error"></small>
+                </div>
+
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Your Email">
+                    <small class="error"></small>
+                </div>
+
+                <div class="input-group">
+                    <input type="text" id="destination" placeholder="Preferred Destination">
+                    <small class="error"></small>
+                </div>
+
+                <div class="input-group">
+                    <input type="date" id="date">
+                    <small class="error"></small>
+                </div>
+
+                <div class="input-group">
+                    <textarea id="message" rows="4" placeholder="Your Message"></textarea>
+                    <small class="error"></small>
+                </div>
+
+                <button type="submit">Send Inquiry ✈️</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Travel Adventures. All rights reserved.</p>
+
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+</body>
+</html>
